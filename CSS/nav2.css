@@ -1,0 +1,27 @@
+nav{
+    height: 90px;
+    width:99%;
+    background-color: rgb(53, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{ 
+    
+    font-size:xx-large;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.c1,.c2{
+    
+    align-items: center;
+    display: flex; 
+    gap: 30px;
+
+}
+.c2{
+    font-size: xx-large;
+}

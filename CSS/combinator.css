@@ -1,0 +1,21 @@
+/* Decendant Selector --> It will target both direct and indirect child */ 
+div p{
+    color:blue;
+}
+
+/* Direct Child Selector --> It will Target only direct child*/
+div>p{
+    font-variant: small-caps;
+}
+
+/*Adjacent Sibling --> It will Target First Sibling */
+
+div+p{
+    color: coral;
+}
+
+/*General Sibling --> It will Target all Siblings */
+
+div~p{
+    background-color: cyan;
+}

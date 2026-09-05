@@ -1,0 +1,54 @@
+div{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(173, 139, 181);
+    animation: abc 5s ease-in 5s infinite;
+    box-shadow: 10px 20px 10px 20px grey ;
+}
+
+section
+{
+    height: 90vh;
+    width: 90%;
+}
+@keyframes abc {
+    0%{
+        transform: rotate(45deg);
+        border-radius: 90px;
+        background: linear-gradient(purple, rgb(212, 119, 181));
+        margin-top: 90px;
+        margin-left: 90px;
+
+    }
+    20%{
+        transform: rotate(90deg);
+        border-radius: 170px;
+        background: linear-gradient(rgb(67, 10, 67), rgb(145, 38, 109));
+        
+    }
+     
+    40%{
+        transform: rotate(180deg);
+        border-bottom-right-radius: 50px;
+        background: linear-gradient(rgb(63, 6, 63), rgb(109, 48, 88));
+        transform: scale(1.5);
+
+    }
+
+    60%{
+        transform: rotate(270);
+        border-top-left-radius: 80px ;
+        border-bottom-left-radius: 80px  ;
+        background: linear-gradient(rgb(227, 151, 163), rgb(242, 91, 242), rgb(140, 22, 22));
+        transform: skew(45deg);
+    }
+    
+    80%{
+        transform: rotate(360);
+        transform: vertical;
+        border-top-left-radius: 80px ;
+        border-bottom-left-radius: 80px  ;
+        background: linear-gradient(rgb(210, 62, 84), rgb(123, 78, 123), rgb(203, 56, 56));
+        transform: skew(45deg);
+    }
+}

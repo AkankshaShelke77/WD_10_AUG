@@ -1,0 +1,24 @@
+
+/* ID Selector*/
+#A1{
+    color: crimson;
+}
+
+/* class  Selector*/
+
+.C1{
+    color: green;
+    
+}
+
+/* Group Selector*/
+
+#A1,.C1,h4{
+    font-family: monospace;
+}
+
+/* UNIVERSAL Selector*/
+*{
+    background-color: goldenrod;
+    
+}

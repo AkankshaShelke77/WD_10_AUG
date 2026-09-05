@@ -1,0 +1,31 @@
+nav{
+    height: 2cm;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body{ 
+    background-color: rgb(82, 79, 79);   
+}
+h2,h4{
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+h3,ul{
+    margin-left: 2cm;
+}
+
+p{
+    margin-left: 3cm;
+}
+header,main,footer{
+    color: aliceblue;
+}
+
+.ab{
+    float: right;
+
+}

@@ -1,0 +1,68 @@
+div{
+    height: 150px;
+    width: 150px;
+    
+    margin: 20px;
+    
+}
+section{
+    height: 90vh;
+    width: 100%;
+  
+}
+
+.a{
+    height: 150px ;
+    animation: ani 10s ease 5s infinite ;
+    margin-right: auto;
+    position: relative;
+    
+
+}
+
+.b{
+    animation: ani2 10s ease 5s infinite ;
+    margin-top: 100px;
+    margin-left: auto;
+    position:relative;
+}
+
+@keyframes ani {
+
+    0%{
+        left: 0%;
+        transform: rotate(30deg); 
+    }
+
+    20%{
+        left: 40%;
+    }
+
+    40%{
+
+
+
+
+    }
+    
+}
+
+
+@keyframes ani2 {
+
+    0%{
+        right: 0%;
+        transform: rotate(30deg); 
+
+    }
+
+    20%{
+        right: 40%;
+    }
+
+    40%{
+        transform:rotate3d();
+    }
+
+    
+}
